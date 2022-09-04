@@ -24,3 +24,6 @@ app.get("/",(req,res)=>{
 
 app.use("/song",SongController);
 app.use("/artist",ArtstController);
+
+
+module.exports = app;
