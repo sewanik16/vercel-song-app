@@ -28,4 +28,4 @@ app.use("/song",SongController);
 app.use("/artist",ArtstController);
 
 
-module.exports = app;
+// module.exports = app;
