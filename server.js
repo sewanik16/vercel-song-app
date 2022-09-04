@@ -14,7 +14,9 @@ app.listen(process.env.PORT || 5000,()=>{
     console.log('Listening on port 5000')
 })
 
-mongoose.connect("mongodb://localhost/spotify",()=>{
+
+let db="mongodb+srv://sewanik:sewanik@spotify.z7oxwt4.mongodb.net/SpotifyAltas?retryWrites=true&w=majority"
+mongoose.connect(db,()=>{
     console.log("database connected")
 })
 
