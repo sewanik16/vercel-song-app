@@ -21,7 +21,7 @@ mongoose.connect(db,()=>{
 })
 
 app.get("/",(req,res)=>{
-    res.send("welcome to spotify back-end server")
+    res.send("welcome to spotify back-end server [nik]")
 })
 
 app.use("/song",SongController);
